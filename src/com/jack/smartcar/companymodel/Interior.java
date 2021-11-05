@@ -21,7 +21,23 @@ private String AIBot;
 	return carsteatpressure;
 }
 
-   public String driverDashboard() {
+   public String getDriverDashboard() {
+	return driverDashboard;
+}
+
+public void setDriverDashboard(String driverDashboard) {
+	this.driverDashboard = driverDashboard;
+}
+
+public String getCarSeats() {
+	return carSeats;
+}
+
+public void setCarSeats(String carSeats) {
+	this.carSeats = carSeats;
+}
+
+public String driverDashboard() {
 	String displaydriverslectedmode = null;
 	return displaydriverslectedmode;
 
@@ -34,6 +50,22 @@ private String AIBot;
 	public String AIBot() {
 		String informDriverOfTraffic = null;
 		return informDriverOfTraffic;
+	}
+
+	public String getWheels() {
+		return wheels;
+	}
+
+	public void setWheels(String wheels) {
+		this.wheels = wheels;
+	}
+
+	public String getAIBot() {
+		return AIBot;
+	}
+
+	public void setAIBot(String aIBot) {
+		AIBot = aIBot;
 	}
 			
 }
