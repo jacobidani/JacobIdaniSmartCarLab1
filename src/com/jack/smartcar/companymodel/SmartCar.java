@@ -15,11 +15,26 @@ public abstract class SmartCar {
 	public String color;
 	public String VIN;
 	
-	public void receiveData() {
-	
-	}
-	
+	  public  int moveForward() {
+			return 0;
+		}
+		  public  int moveBackward() {
+			return 0;
+		}
+		  
+		  public int emergencyStop() {
+			return 0;
+		}
 
+		  public int matchSpeedFrontCar() {
+				return 0;
+		  }
+		  public int rearviewDectection() {
+				return 0;
+		  }
+		  
+		  
+		  
 	
 	/**
 	 * @param args

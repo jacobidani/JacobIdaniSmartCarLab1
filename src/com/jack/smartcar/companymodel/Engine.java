@@ -1,6 +1,6 @@
 package com.jack.smartcar.companymodel;
 
-public class Engine {
+public class Engine extends SmartCar {
   public String eletricMode;
   public String gazMode;
   
@@ -11,6 +11,7 @@ public class Engine {
 	return 0;
 }
   
-  public HybridEngine() {
+  public int brake() {
+	return 0;
 }
 }
