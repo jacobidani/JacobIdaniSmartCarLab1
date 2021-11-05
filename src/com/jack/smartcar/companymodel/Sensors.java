@@ -22,9 +22,8 @@ public class Sensors extends SmartCar{
 		return laneDeparture;
 	}
 
-	public void setLaneDeparture(String laneDeparture) {
-		this.laneDeparture = laneDeparture;
-	}
+
+	
 
 	public String getCollisionnDetection() {
 		return collisionnDetection;
@@ -34,13 +33,8 @@ public class Sensors extends SmartCar{
 		return pedestrianDetection;
 	}
 
-	public void setPedestrianDetection(String pedestrianDetection) {
-		this.pedestrianDetection = pedestrianDetection;
-	}
+	
 
-	public void setCollisionnDetection(String collisionnDetection) {
-		this.collisionnDetection = collisionnDetection;
-	}
 
 	public String getAutoPilot() {
 		return autoPilot;
@@ -50,13 +44,9 @@ public class Sensors extends SmartCar{
 		return selfParkingMode;
 	}
 
-	public void setSelfParkingMode(String selfParkingMode) {
-		this.selfParkingMode = selfParkingMode;
-	}
 
-	public void setAutoPilot(String autoPilot) {
-		this.autoPilot = autoPilot;
-	}
+
+	
 	
     
 
