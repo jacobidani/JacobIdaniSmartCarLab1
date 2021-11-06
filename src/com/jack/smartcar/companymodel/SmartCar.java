@@ -11,7 +11,7 @@ public abstract class SmartCar {
 
 	private static String make="Jack";
 	public String model;
-	public int year;
+	public double year;
 	public String color;
 	public String VIN;
 	
@@ -26,21 +26,16 @@ public abstract class SmartCar {
 			return 0;
 		}
 
-		  public int matchSpeedFrontCar() {
+		  public double matchSpeedFrontCar() {
 				return 0;
 		  }
 		  public int rearviewDectection() {
 				return 0;
 		  }
 		  
+		 
 		  
-		  
-	
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		  {
 
 		  System.out.print(make);;
 	}

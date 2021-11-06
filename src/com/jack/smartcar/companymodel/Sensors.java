@@ -18,31 +18,46 @@ public class Sensors extends SmartCar{
 		return autoPilot;
     }
 
-	public String getLaneDeparture() {
+	public String LaneDepartureAlarm() {
 		return laneDeparture;
 	}
 
 
 	
 
+	public String CollisionnDetectionAlarm() {
+		return CollisionnDetectionAlarm();
+	}
+
+	public String PedestrianDetectionAlarm() {
+		return PedestrianDetectionAlarm();
+	}
+
+	
+
+
+
+	public String SelfParkingMode() {
+		return selfParkingMode;
+	}
+
 	public String getCollisionnDetection() {
 		return collisionnDetection;
+	}
+
+	public void setCollisionnDetection(String collisionnDetection) {
+		this.collisionnDetection = collisionnDetection;
 	}
 
 	public String getPedestrianDetection() {
 		return pedestrianDetection;
 	}
 
+	public void setPedestrianDetection(String pedestrianDetection) {
+		this.pedestrianDetection = pedestrianDetection;
+	}
+
 	
-
-
-	public String getAutoPilot() {
-		return autoPilot;
-	}
-
-	public String getSelfParkingMode() {
-		return selfParkingMode;
-	}
 
 
 
