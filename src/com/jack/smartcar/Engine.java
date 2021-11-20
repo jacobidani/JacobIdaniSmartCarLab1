@@ -1,11 +1,15 @@
-package com.jack.smartcar.companymodel;
+package com.jack.smartcar;
 
 public class Engine extends SmartCar {
   public double eletricMode;
-  public double gazMode;
+ 
   
   public  int startEngine() {
 	return 0;
+  }
+	public int remoteStart() {
+		int startcar = 0;
+		return startcar;
 }
   public  int accelate() {
 	return 0;
@@ -13,5 +17,8 @@ public class Engine extends SmartCar {
   
   public int brake() {
 	return 0;
+	
+  
 }
+  
 }

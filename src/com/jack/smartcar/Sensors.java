@@ -1,7 +1,4 @@
-/**
- * 
- */
-package com.jack.smartcar.companymodel;
+package com.jack.smartcar;
 
 
 
@@ -74,9 +71,7 @@ public  class Sensors {
 	 } 
 
 
-}
-
-	
+}	
 	
     
 

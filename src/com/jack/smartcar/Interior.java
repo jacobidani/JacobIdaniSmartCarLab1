@@ -1,7 +1,6 @@
-/**
- * 
- */
-package com.jack.smartcar.companymodel;
+package com.jack.smartcar;
+ 
+
 
 /**
  * @author jacob
@@ -41,6 +40,18 @@ public double CarSeatsType() {
 
 	public double direction() {
 		return steeringWheel;
+	}
+
+
+
+	public String getAIBot() {
+		return AIBot;
+	}
+
+
+
+	public void setAIBot(String aIBot) {
+		AIBot = aIBot;
 	}
 
 	
