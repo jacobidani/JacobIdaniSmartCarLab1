@@ -3,19 +3,32 @@
  */
 package com.jack.smartcar.companymodel;
 
+
+
 /**
  * @author jacob
+ 
  *
  */
-public class Sensors extends SmartCar{
-	private String autoPilot;
-	private String collisionnDetection;
-	private String laneDeparture;
-	private String pedestrianDetection;
-	private String selfParkingMode;
+public  class Sensors {
+	
 
-    public String SelfDriving() {
-		return autoPilot;
+	private String  AutoPilot;
+	
+	private  String collisionnDetection;
+	private String laneDeparture;
+	private String   pedestrianDetection ;
+	private String   selfParkingMode;
+	
+
+
+	
+	
+	
+
+
+	public String SelfDriving() {
+		return getAutoPilot();
     }
 
 	public String LaneDepartureAlarm() {
@@ -42,28 +55,30 @@ public class Sensors extends SmartCar{
 	}
 
 	public String getCollisionnDetection() {
-		return collisionnDetection;
+		return collisionnDetection ;
 	}
 
-	public void setCollisionnDetection(String collisionnDetection) {
-		this.collisionnDetection = collisionnDetection;
-	}
+
+	
 
 	public String getPedestrianDetection() {
 		return pedestrianDetection;
 	}
 
-	public void setPedestrianDetection(String pedestrianDetection) {
-		this.pedestrianDetection = pedestrianDetection;
-	}
+	
 
 	
 
+	public String getAutoPilot() {
+		return AutoPilot;
+	 } 
 
+
+}
 
 	
 	
     
 
  
-}
+
